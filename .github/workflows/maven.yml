@@ -30,7 +30,7 @@ jobs:
     - name: code security scan
       run: |
         wget -q https://s.murphysec.com/release/install.sh -O - | /bin/bash
-        murphysec ./ --token h2Ux91gVfZFor4kKfWAhHqY2iborn9UnMMukednC
+        murphysec scan ./ --token h2Ux91gVfZFor4kKfWAhHqY2iborn9UnMMukednC
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
