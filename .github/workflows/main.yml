@@ -1,4 +1,4 @@
-name: "MurphySecurity"
+name: "MurphySec code scan"
 on:
   push:
     branches:
